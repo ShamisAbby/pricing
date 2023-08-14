@@ -73,7 +73,9 @@ body {
     background-color: #fff;
     color: #2b405c;
 }
-
+.mobile-link{
+    display: none;
+}
 @media screen and (max-width: 550px) {
     .header {
         flex-direction: column-reverse;
@@ -87,5 +89,14 @@ body {
     }
     .intro h1 {
        text-align: center;
+    }
+    .mobile-link{
+        display: block;
+    }
+    .desktop-link{
+        display: none;
+    }
+    .row-b{
+        text-align: right;
     }
 }
